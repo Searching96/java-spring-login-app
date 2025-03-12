@@ -1,0 +1,9 @@
+# spring.application.name=my-login-app
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/accountdb
+    username: root
+    password: user
+  jpa:
+    hibernate:
+      ddl-auto: update
